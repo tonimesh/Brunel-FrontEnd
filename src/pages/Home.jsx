@@ -34,38 +34,32 @@ const Home = () => {
       </div>
       <div className="container explore-sec">
         <div className="row p-0 m-0">
-          <div className="col-md-12 col-lg-6 p-0 m-0 left-section">
-            <img src="images/left-section.png" alt="" />
-          </div>
-          <div className="col-md-12 col-lg-6 right-section align-items-center">
+          <div className="col-md-12 col-lg-7 p-0 m-0 left-section">
+            <img className='left-section-img' src="images/aaa.png" alt="" />
 
-
-            {/* <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-              <ol className="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div className="carousel-inner">
-
-                <div className="carousel-item active">
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>Enhance fortune 50 company’s insights teams research capabilities</h5>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>...</h5>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>Kill fortune 50 company’s insights teams research capabilities</h5>
-                  </div>
-                </div>
-
+            <div className='float-card-1-ctr hover-effect'>
+              <div className='float-card-1'>
+                <img src="/images/sparkle.svg"/>
+                <h2>40%</h2>
+                <p>Achieved reduction in project execution time by optimising team availability</p>
               </div>
-            </div> */}
+            </div>
+
+            <div className='float-card-round d-flex justify-content-between hover-effect'>
+              <img src="/images/plane.svg" alt="" />
+              <div>
+              <h3 className='m-0'>10 DAYS</h3>
+              <p className='m-0'>Staff Deployment</p>
+              </div>
+              
+            </div>
+            
+            <div className='float-card-2 hover-effect'>
+              <h2>$0.5 <span>MILLION</span></h2>
+              <p>Reduced client expenses by saving on hiring and employee costs.</p>
+            </div>
+          </div>
+          <div className="col-md-12 col-lg-5 right-section align-items-center">
 
             <div className='row w-100'>
               <div className="col-md-12">
@@ -83,21 +77,17 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="home-faq-sec">
-      <img src="images/arrow.svg" alt="" />
+        <img src="images/arrow.svg" alt="" />
         <div className="container">
           <div className="row home-faq-sec-row">
             <div className="col-md-6 faq-left">
               <h5 className='faq-title'> What’s on your mind</h5>
               <h2 className='faq-subtitle'>Ask Questions</h2>
-              
-
             </div>
             <div className="col-md-6 faq-right">
-               <Accordian />
-
-
+              <Accordian />
             </div>
           </div>
 
@@ -108,7 +98,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 footer-left d-flex align-items-center">
-                <img className='me-3' src="images/copyright.png" alt="" /> Talup 2023. All rights reserved
+              <img className='me-3' src="images/copyright.png" alt="" /> Talup 2023. All rights reserved
 
             </div>
             <div className="col-md-6 footer-right text-end">

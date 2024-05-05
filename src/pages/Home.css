@@ -61,11 +61,188 @@ a {
 
 .explore-sec {
     margin-top: 84px;
+    margin-bottom: 84px;
 }
 
-.left-section img {
+.left-section .left-section-img {
     width: 100%;
+    aspect-ratio: 1.235;
+    object-fit: contain;
+    max-height: 544px;
 }
+
+.left-section {
+    position: relative;
+}
+
+/* 3 floating cards */
+
+.float-card-1-ctr {
+    position: absolute;
+    top: 20%;
+    right: 70%;
+}
+.float-card-1 {
+    border-radius: 28px;
+    background: #FFFFFF;
+    box-shadow: 0px 22.59px 36.14px 0px #1E1E1E17;
+    padding: 30px;
+    height: 240px;
+    width: 268px;
+    position: relative;
+    overflow: hidden;
+}
+
+.float-card-1 p, 
+.float-card-2 p {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: left;
+    color: #828282;
+}
+.float-card-round p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    color: #828282;
+}
+.float-card-round h3 {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.78px;
+    text-align: left;
+}
+.float-card-1 img {
+    width: 79.17px;
+    height: 78.48px;
+    transform: rotate(.27deg);
+    position: absolute;
+    top: -5px;
+    left: 0;
+    scale: 1.2;
+}
+.float-card-1 h2 {
+    font-family: Switzer;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 76.8px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #1c1c1c;
+}
+
+.float-card-2 {
+    background: #002E18;
+    border-radius: 28px;
+    border: 1.18px solid;
+    border-image-source: linear-gradient(159.14deg, #3D3D3D 6.08%, rgba(61, 61, 61, 0) 85.58%);
+    box-shadow: 0px 23.63px 37.81px 0px #1E1E1E17;
+    padding: 34px 30px 40px 36px;
+    height: 240px;
+    width: 290px;
+    position: absolute;
+    top: 65%;
+    right: 0px;
+}
+.float-card-2 p {
+    color: #cccccc;
+}
+.float-card-2 h2 {
+    font-family: Switzer;
+    font-size: 63.37px;
+    font-weight: 500;
+    line-height: 76.05px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #ffffff;
+}
+.float-card-2 h2 span {
+    font-family: Switzer;
+    font-size: 22.81px;
+    font-weight: 500;
+    line-height: 31.94px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #A6A3A0;
+}
+
+.float-card-round {
+    box-shadow: 0px 15.21px 35.49px 0px #00000017;
+    padding: 16px 32px 16px 16px;
+    border-radius: 111.54px;
+    width: 245px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 77%;
+    right: 60%;
+}
+
+
+@media (max-width:1280px) {
+    .float-card-1, .float-card-2, .float-card-round {
+        scale: 0.9;
+    }
+    .float-card-1-ctr {
+        right: 57%;
+        top: 15%;
+    }
+    .float-card-2 {
+        top: 65%;
+        left: 60%;
+    }
+    .explore-sec img {
+        object-position: right;
+    }
+}
+
+@media (max-width:1024px) {
+    .float-card-1, .float-card-2, .float-card-round {
+        scale: 0.9;
+    }
+    .float-card-1-ctr {
+        right: 57%;
+        top: 15%;
+    }
+    .left-section {
+        margin-bottom: 80px!important;
+    }
+    .explore-sec img {
+        object-position: right;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .float-card-1, .float-card-2, .float-card-round {
+        scale: 0.6;
+    }
+    .explore-sec img {
+        object-position: right;
+    }
+    .float-card-1-ctr {
+        right: 47%;
+        top: 10%;
+    }
+    .float-card-2 {
+        top: 55%;
+        left: 50%;
+    }
+    .float-card-round {
+        right: 50%;
+        top: 72%;
+    }
+    .left-section {
+        margin-bottom: 20px!important;
+    }
+}
+
+
+/* --- */
 
 .carousel-caption {
     text-align: left;
@@ -252,4 +429,29 @@ a {
         padding: 0px 20px;
     }
 
+}
+
+/* animations */
+
+@keyframes soft-hover {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.hover-effect:hover {
+    animation: soft-hover 0.5s ease;
+}
+
+.hover-effect {
+    animation-play-state: paused;
 }

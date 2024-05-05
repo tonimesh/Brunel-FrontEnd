@@ -1,0 +1,255 @@
+h2,
+h3,
+h5,
+p,
+a {
+    font-family: "Manrope", sans-serif;
+}
+
+.header {
+    border: 1px solid #EAEAEA;
+    border-radius: 65.28px;
+    padding: 16.97px 20.89px 16.97px 52.22px;
+    margin: 10px 20px;
+}
+
+.button a {
+    padding: 10px 30px;
+    border: 1.31px solid #EAEAEA;
+    border-radius: 107.06px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.proj {
+    margin-right: 15.67px;
+    color: #1C1C1C;
+}
+
+.Onboard {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.Onboard:hover {
+    background-color: #4E4E4E;
+}
+
+.proj:hover {
+    background-color: #F1F1F1;
+}
+
+/* --------------------------header-css-end----------------------------- */
+
+.title p {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Covered By Your Grace", cursive;
+    font-style: normal;
+    color: #2DA950;
+    line-height: 39.6px;
+}
+
+.sub-title p {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+}
+
+.explore-sec {
+    margin-top: 84px;
+}
+
+.left-section img {
+    width: 100%;
+}
+
+.carousel-caption {
+    text-align: left;
+    top: 1.25rem;
+    /* right: 0;
+    top: 40px;
+    bottom: 0; */
+}
+
+.carousel-indicators {
+    bottom: -20px;
+    /* left: 8px; */
+    justify-content: left;
+}
+
+.carousel-item {
+    min-height: 230px;
+    height: fit-content;
+    text-align: left;
+}
+
+.carousel-item h3 {
+    color: black;
+    /* font-size: 40px; */
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+    .carousel-item h3 {
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 385px) {
+    .carousel-item h3 {
+        font-size: 1.3rem;
+    }
+}
+
+.carousel {
+    margin: auto;
+}
+
+.carousel-indicators button {
+    background-color: #2DA950 !important;
+    border-radius: 100% !important;
+    width: 10.75px !important;
+    height: 10.75px !important;
+    padding: 0 !important;
+}
+
+.right-section {
+    background-image: url("./images/right-sec-bg.svg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.right-section .btn-row {
+    position: relative;
+    margin-top: 20px;
+}
+
+@media (min-width: 1280px) {
+
+    .right-section .btn-row {
+        /* bottom: 84px; */
+    }
+}
+
+.explore-btn {
+    margin-left: 15%;
+    height: 70px;
+    padding: 0 31px;
+    width: fit-content;
+    background-color: #1C1C1C;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.explore-btn:hover {
+    background-color: #4E4E4E;
+}
+
+.explore-btn a {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 27.32px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.home-faq-sec {
+    background-color: #E8EEE7;
+    margin: 10px 20px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.home-faq-sec img {
+    position: absolute;
+    bottom: 0px;
+}
+
+.faq-title {
+    margin-top: 3rem;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Covered By Your Grace", cursive;
+    font-style: normal;
+    color: #9E9D9D;
+    line-height: 35.2px;
+}
+
+.faq-subtitle {
+    color: #1C1C1C;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 66px;
+}
+
+.faq-right {
+    margin: 9rem 0rem;
+}
+
+.footer {
+    background-color: #F5F5F5;
+    border-radius: 40px;
+    margin: 10px 20px;
+    padding: 30px 0px;
+}
+
+.footer-left {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1C1C1C;
+    line-height: 19.8px;
+}
+
+.footer-right a {
+    font-size: 18px;
+    color: #1C1C1C;
+    font-weight: 400;
+    line-height: 19.8px;
+}
+
+
+@media screen and (max-width: 764px) {
+    .logo {
+        text-align: center;
+    }
+
+    .header-right {
+        justify-content: center !important;
+        margin-top: 10px !important;
+    }
+
+    .button a {
+        padding: 10px 15px;
+    }
+
+    .sub-title p {
+        font-size: 36px;
+    }
+
+    .home-faq-sec img {
+        width: 100%;
+    }
+    .footer-left{
+        justify-content: center;
+    }
+    .footer-right{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    .home-faq-sec-row{
+        padding: 0px 20px;
+    }
+
+}

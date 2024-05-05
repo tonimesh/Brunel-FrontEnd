@@ -1,0 +1,153 @@
+.signup-header{
+    margin-top:30px;
+}
+.signup-header-row{
+    display: flex;
+    align-items: center;
+}
+.cross-icon{
+    color:#0C1319;
+    font-size:16px;
+    border:1px solid #CACACA;
+    padding: 10px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cross-icon:hover {
+    background: #F1F1F1;
+}
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+.form-title p{
+    text-align: center;
+    font-family: "Covered By Your Grace", cursive;
+    color:#2DA950;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+
+}
+.form-subtitile p{
+    font-size: 56px;
+    font-weight: 600;
+    color:#1C1C1C;
+    font-family: "Manrope", sans-serif;
+    line-height: 67.2px;
+    text-align: center;
+}
+.form-body{
+    margin-top:3rem;
+}
+.form-body input{
+    border:1px solid #EFEFEF;
+    background-color: #EFEFEF;
+    border-radius: 64px;
+}
+.form-body input::placeholder{
+    font-family: "Manrope", sans-serif;
+}
+.form-body input:focus{
+    outline: none;
+}
+.form-button{
+    margin-top: 20px;
+}
+
+.form-body {
+    width: 100%;
+}
+.form-body > div {
+    width: 100%;
+    margin: auto;
+    max-width: 417px;
+    margin-bottom: 20px;
+}
+.form-body input, .form-body button {
+    display: block;
+    width: 100%;
+    padding: 24px 36px;
+}
+
+.form-button button{
+    color:#FFFFFF;
+    text-decoration: none;
+    border:1px solid #C9C9C9;
+    background: #1C1C1C;
+    border-radius: 107.06px;
+    margin-top: 40px;
+}
+.form-button button:hover{
+    background-color: #4E4E4E;
+}
+
+.form-button button:disabled {
+    background: #C9C9C9;
+}
+.error{
+    display: flex;
+    margin: 5px 26px;
+    align-items: center;
+    color:#FF0808;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    font-family: "Manrope", sans-serif;
+}
+
+
+.sign-up-success{
+    height: 80vh;
+}
+
+.sign-up-success-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.success-titile{
+    margin-top: 20px;
+}
+.success-titile p{
+    color:#2DA950;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Covered By Your Grace", cursive;
+}
+.notify .greet{
+    font-size: 56px;
+    color:#1C1C1C;
+    font-weight: 600;
+    line-height: 67.2px;
+    font-family: "Manrope", sans-serif;
+}
+.notify .text{
+    color:#727272;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 35.1px;
+    font-family: "Manrope", sans-serif;
+    max-width: 700px;
+}
+.sign-up-success-footer p{
+    color:#727272;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: "Manrope", sans-serif;
+
+} 
+@media screen and (max-width: 600px) {
+    .form-subtitile p{
+        font-size: 36px;
+    }
+    .notify .greet{
+        font-size: 36px;
+    }
+    
+}

@@ -48,11 +48,11 @@ Clicking on "Get Projects" button on the homepage header will take you to signup
 Enjoy :)
 
 ### Screenshots:
-![Home Page]("https://raw.githubusercontent.com/tonimesh/Brunel-FrontEnd/main/screens/screen%201.png")
+![Home Page](/screens/screen%201.png?raw=true)
 
-![SignUp Screen]("https://raw.githubusercontent.com/tonimesh/Brunel-FrontEnd/main/screens/screen%202.png")
+![SignUp Screen](/screens/screen%202.png?raw=true)
 
-![SignUp Screen 2]("https://raw.githubusercontent.com/tonimesh/Brunel-FrontEnd/main/screens/screen%203.png")
+![SignUp Screen 2](/screens/screen%203.png?raw=true)
 
 ### TODO:
 1. Will be adding more animations

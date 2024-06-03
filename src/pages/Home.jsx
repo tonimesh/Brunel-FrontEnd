@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <div className="header">
-        <div className="container p-0 m-0">
+        <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-md-6">
               <div className="logo">

@@ -17,7 +17,7 @@ const Home = () => {
                 <img src="images/Logo.png" alt="" />
               </div>
             </div>
-            <div className="col-md-6  d-flex justify-content-end button p-0 m-0 header-right">
+            <div className="col-md-6  d-flex justify-content-end button header-right">
               <a href="/signup" className="proj">Get Projects</a>
               <a href="" className="Onboard">Onboard Talent</a>
             </div>
